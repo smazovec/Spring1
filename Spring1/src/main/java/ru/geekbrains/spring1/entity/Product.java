@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Product {
 
-  private final int id;
+  private final Long id;
   private final String title;
   private final int coast;
 
